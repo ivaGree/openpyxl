@@ -1,2 +1,2 @@
-# openpyxl.01
-Python - читаем Excel с заголовками столбцов
+# openpyxl
+Python - читаем и пишем в Excel файлы с помощью openpyxl
