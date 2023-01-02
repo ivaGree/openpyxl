@@ -153,13 +153,13 @@ for row in sheet.values:
 #         # print(cell.font) # получить значение шрифта
 print('-------------------------------------------')
 
-# ----------------------------------------------------------------------------------------------------------------------
-print('SECTION 12 - ДОБАВИТЬ ЗАГОЛОВКИ СТОЛБЦОВ В ФАЙЛЕ')
-sheet = wb['staff']         # по конкретному названию листа в книге
-
-# worksheet.insert_rows(0)
-# worksheet['A1'].value = 'issue_key'
-# worksheet['B1'].value = 'issue_summary'
-# worksheet['C1'].value = 'hours'
-# worksheet['D1'].value = 'work_date'
-# worksheet['E1'].value = 'user_login'
+# # ----------------------------------------------------------------------------------------------------------------------
+# print('SECTION 12 - ДОБАВИТЬ ЗАГОЛОВКИ СТОЛБЦОВ В ФАЙЛЕ')
+# sheet = wb['staff']         # по конкретному названию листа в книге
+# 
+# # worksheet.insert_rows(0)
+# # worksheet['A1'].value = 'issue_key'
+# # worksheet['B1'].value = 'issue_summary'
+# # worksheet['C1'].value = 'hours'
+# # worksheet['D1'].value = 'work_date'
+# # worksheet['E1'].value = 'user_login'

@@ -128,3 +128,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# не пишем временные (открытые) эксельки
+~$*
+
+# не пушим маковские .DS_Store
+.DS_Store

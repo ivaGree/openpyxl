@@ -1,4 +1,4 @@
-# less11.py - Запишем список списков в новый файл2, который создадим на лету
+# less11.py - Запишем список списков в новый tmp1.xlsx, который создадим на лету
 
 # Подключили openpyxl
 import openpyxl
@@ -23,4 +23,4 @@ for row in list_tmp:
     ws.append(row)
 
 # Сохраняем измененный файл
-wb.save('tmp.xlsx')
+wb.save('tmp11.xlsx')
