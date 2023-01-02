@@ -96,7 +96,7 @@ staff_list = []
 # Создадим пустой список списков
 staff_list_of_list: list = []
 
-for row in range(1, ws_staff.max_row+1): # (2, ws_staff.max_row+1) -> бе заголовка, начнет со второй строки
+for row in range(1, ws_staff.max_row+1): # (2, ws_staff.max_row+1) -> без заголовка, начнет со второй строки
     # print(ws_staff[row])    # вывод: (<Cell 'staff'.A1>, <Cell 'staff'.B1>, <Cell 'staff'.C1>)
     staff_id = ws_staff[row][0].value
     staff_name = ws_staff[row][1].value
