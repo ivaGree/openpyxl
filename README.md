@@ -5,5 +5,5 @@ Python - читаем и пишем в Excel файлы с помощью openpy
 pip install openpyxl
 
 # Оглавление:
-less0 - Общие данные по работе с Excel через openpyxl
-less1.py - Читаем Excel файл без заголовков столбцов
+- less0 - Общие данные по работе с Excel через openpyxl
+- less1.py - Получаем активный лист книги
