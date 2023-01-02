@@ -25,11 +25,11 @@ print('-------------------------------------------')
 # ----------------------------------------------------------------------------------------------------------------------
 print('SECTION 3')
 # Полный список всех листов книги в списке
-wb_sheets = wb.sheetnames
-print(wb_sheets)                         # ['staff', 'worklog']
-print(wb_sheets[0])                      # Обратиться к 1му листу книги -> staff
-print(type(wb_sheets))                   # ТИП: <class 'list'>
-print(type(wb_sheets[0]))                # ТИП: <class 'str'>
+wb_sheets_list = wb.sheetnames
+print(wb_sheets_list)                         # ['staff', 'worklog']
+print(wb_sheets_list[0])                      # Обратиться к 1му листу книги -> staff
+print(type(wb_sheets_list))                   # ТИП: <class 'list'>
+print(type(wb_sheets_list[0]))                # ТИП: <class 'str'>
 print('-------------------------------------------')
 
 # ----------------------------------------------------------------------------------------------------------------------
