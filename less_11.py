@@ -12,11 +12,11 @@ wb = openpyxl.Workbook()
 wb.remove(wb.active)
 # Создаем лист с названием "Test"
 wb.create_sheet('Test')
-# Делаем его активным
+# Делаем его активным / определяем что пишем в него
 ws = wb['Test']
 
 # В указанную ячейку на активном листе пишем все, что в кавычках
-# worksheet['B4']='We are writing to B4'
+# ws['B4']='We are writing to B4'
 
 # Бежим по списку списков
 for row in list_tmp:
