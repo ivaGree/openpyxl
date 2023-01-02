@@ -1,4 +1,4 @@
-# less_12.py - Прочитаем database.xlsx и запишем выборочные данные в tmp2.xlsx (+ переименуем заголовки)
+# less_12.py - Прочитаем database.xlsx и запишем выборочные данные в tmp12.xlsx (+ переименуем заголовки)
 
 import openpyxl
 from openpyxl import load_workbook
