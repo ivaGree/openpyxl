@@ -16,3 +16,4 @@ pip install openpyxl
 - less8.py - Вариант 2 (for row in range(1, ws.max_row+1)): Читаем лист Excel файла -> в список списков
 - less9.py - Вариант 3: Читаем лист Excel файла
 - less10.py - Вариант 4: Читаем лист Excel файла
+- less11.py - Запишем список списков в новый (text.xlsx), который создадим на лету 

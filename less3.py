@@ -12,3 +12,6 @@ ws_staff = wb['staff']          # ws -> ws_staff
 ws_worklog = wb['worklog']      # ws -> ws_worklog
 print(ws_staff)                 # <Worksheet "staff">
 print(type(ws_staff))           # ТИП: <class 'openpyxl.worksheet.worksheet.Worksheet'>
+
+#  Получить активный лист книги
+print(wb.active)
