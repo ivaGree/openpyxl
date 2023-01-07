@@ -24,5 +24,7 @@ print(staff_row_list)
 # list_out = [[*k, sum(int(rr[2]) for rr in v)] for k, v in groupby(list_in, lambda r: (r[0], r[-1]))]
 # print(list_out)
 
+
+
 staff_row_list_out = [[*k, sum(float(rr[1]) for rr in v)] for k, v in groupby(staff_row_list, lambda r: (r[3],))]
 print(staff_row_list_out)

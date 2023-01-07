@@ -24,3 +24,7 @@ for row in list_tmp:
 
 # Сохраняем измененный файл
 wb.save('tmp11.xlsx')
+
+# Создать новый лист в существующий файл
+ws = wb.create_sheet('Test2')
+wb.save('tmp11.xlsx')
